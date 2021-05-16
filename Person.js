@@ -6,7 +6,7 @@ isStatic:true
 this.body=Bodies.rectangle(x,y,width,height,options)
 this.width=width;
 this.height=height;
-this.image=loadImage("Walking Frame/walking_8.png");
+this.image=loadImage("walking_8.png");
 World.add(world,this.body)
 }
 display(){
